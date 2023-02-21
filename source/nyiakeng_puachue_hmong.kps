@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Package>
+  <System>
+    <KeymanDeveloperVersion>16.0.138.0</KeymanDeveloperVersion>
+    <FileVersion>7.0</FileVersion>
+  </System>
+  <Options>
+    <ExecuteProgram></ExecuteProgram>
+    <ReadMeFile>readme.htm</ReadMeFile>
+    <MSIFileName></MSIFileName>
+    <MSIOptions></MSIOptions>
+  </Options>
+  <StartMenu>
+    <Folder></Folder>
+    <Items/>
+  </StartMenu>
+  <Info>
+    <Version URL="">1.01</Version>
+    <Name URL="">NyiakengPuachueMhong</Name>
+    <Copyright URL="">Copyright © 2023 by Nyiakeng Puachue Mhong Committee</Copyright>
+    <Author URL="">Rev. Cher Vang, David Lee (Developer)</Author>
+    <WebSite URL="https://www.mhongilc.org">https://www.mhongilc.org</WebSite>
+  </Info>
+  <Files>
+    <File>
+      <Name>..\build\nyiakeng_puachue_hmong.kvk</Name>
+      <Description>File nyiakeng_puachue_hmong.kvk</Description>
+      <CopyLocation>0</CopyLocation>
+      <FileType>.kvk</FileType>
+    </File>
+    <File>
+      <Name>..\build\nyiakeng_puachue_hmong.kmx</Name>
+      <Description>Keyboard NyiakengPuachueHmong</Description>
+      <CopyLocation>0</CopyLocation>
+      <FileType>.kmx</FileType>
+    </File>
+    <File>
+      <Name>..\build\nyiakeng_puachue_hmong.js</Name>
+      <Description>File nyiakeng_puachue_hmong.js</Description>
+      <CopyLocation>0</CopyLocation>
+      <FileType>.js</FileType>
+    </File>
+    <File>
+      <Name>readme.htm</Name>
+      <Description>File readme.htm</Description>
+      <CopyLocation>0</CopyLocation>
+      <FileType>.htm</FileType>
+    </File>
+    <File>
+      <Name>welcome.htm</Name>
+      <Description>File welcome.htm</Description>
+      <CopyLocation>0</CopyLocation>
+      <FileType>.htm</FileType>
+    </File>
+    <File>
+      <Name>..\..\NotoSerifNPHmong-Regular.ttf</Name>
+      <Description>Font Noto Serif NP Hmong Regular</Description>
+      <CopyLocation>0</CopyLocation>
+      <FileType>.ttf</FileType>
+    </File>
+  </Files>
+  <Keyboards>
+    <Keyboard>
+      <Name>NyiakengPuachueHmong</Name>
+      <ID>nyiakeng_puachue_hmong</ID>
+      <Version>1.01</Version>
+      <OSKFont>..\..\NotoSerifNPHmong-Regular.ttf</OSKFont>
+      <DisplayFont>..\..\NotoSerifNPHmong-Regular.ttf</DisplayFont>
+      <Languages>
+        <Language ID="hmn-Hmnp">Hmong (Nyiakeng Puachue Hmong)</Language>
+      </Languages>
+    </Keyboard>
+  </Keyboards>
+  <Strings/>
+</Package>
